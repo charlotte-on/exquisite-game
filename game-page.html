@@ -7,7 +7,7 @@
     <title>Exquisite game</title>
   </head>
   <body>
-    <div id="main-page">
+    <div id="game-page">
       <header>
         <h1 id="name">EXQUISITE GAME</h1>
         <nav class="menu">
@@ -16,13 +16,20 @@
           <a href="#">Credits</a>
         </nav>
       </header>
-
-      <section>
-        <div class="play">
-          <p><a href="./game-page.html">play</a></p>
+      <section id="game">
+        <div>
+          <p>I have</p>
+          <input
+            type="text"
+            id="words"
+            required
+            minlength="40"
+            maxlength="80"
+            size="80"
+          />
+          <input type="button" name="send" id="send" />
         </div>
       </section>
-
       <footer>
         <p>Ceci n'est pas un jeu</p>
       </footer>

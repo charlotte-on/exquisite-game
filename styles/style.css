@@ -1,6 +1,21 @@
+/*Fonts for the pages*/
 @import url(//db.onlinewebfonts.com/c/757a7b747769394e1ea6809387390c3d?family=PlainPensleW00-BoldItalic);
 @import url(//db.onlinewebfonts.com/c/c90aed9ca433814157b45894e93ffab6?family=Timepiece);
 @import url(//db.onlinewebfonts.com/c/6c64d0b07322573d2fe791ca8b55850a?family=SynthemescW00-Regular);
+
+/*Fonts for the players*/
+@import url("https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kristi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ruthie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Waiting+for+the+Sunrise&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&display=swap");
+
+/*General style*/
 
 * {
   margin: 0;
@@ -10,15 +25,6 @@
 a {
   text-decoration: none;
   color: inherit;
-}
-body {
-  background: url(../images/background1.png) center black no-repeat;
-  background-size: 70%;
-  margin: auto;
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  letter-spacing: 0.25rem;
 }
 
 header {
@@ -41,15 +47,38 @@ header {
   margin-top: 2vh;
   margin-left: 2vw;
   font-size: 3rem;
+  transition: color, 250ms;
 }
 
 .menu a:hover {
   color: #f2e47b;
 }
 
+footer {
+  color: whitesmoke;
+  font-family: PlainPensleW00-BoldItalic;
+  text-align: center;
+  font-size: 5.5vh;
+  position: absolute;
+  bottom: 1.5vh;
+  left: 34vw;
+}
+
+/*Homepage*/
+
+#main-page {
+  background: url(../images/background1.png) center black no-repeat;
+  background-size: 70%;
+  margin: auto;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  letter-spacing: 0.25rem;
+}
+
 .play {
   position: absolute;
-  top: 47.5vh;
+  top: 47.45vh;
   left: 47.55vw;
   font-family: SynthemescW00-Regular;
   color: #f2e47b;
@@ -62,12 +91,48 @@ header {
   transform: scale(2);
 }
 
-footer {
-  color: whitesmoke;
-  font-family: PlainPensleW00-BoldItalic;
-  text-align: center;
-  font-size: 5.5vh;
+/*Game page*/
+
+#game-page {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  letter-spacing: 0.25rem;
+}
+
+#game {
+  display: grid;
+  grid-template-columns: 20% auto 20%;
+  grid-template-rows: 720% 65% auto;
+  margin-top: -7vh;
+}
+/*I don't know how to be upper*/
+
+#game div {
+  position: relative;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 0;
+  background: whitesmoke;
+  font-family: Homemade Apple;
+  border-radius: 2vh;
+  padding: 3vh;
+}
+
+#words {
   position: absolute;
-  bottom: 1.5vh;
-  left: 34vw;
+  padding: 2vh;
+  font-size: 1rem;
+  height: 4vh;
+  bottom: 15vh;
+  left: 6vw;
+  border: 1px lightgray solid;
+  border-radius: 0.5vh;
+}
+
+#send {
+  position: absolute;
+  bottom: 5vh;
+  left: 30vw;
 }
