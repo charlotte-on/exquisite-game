@@ -1,0 +1,65 @@
+@import url(//db.onlinewebfonts.com/c/757a7b747769394e1ea6809387390c3d?family=PlainPensleW00-BoldItalic);
+@import url(//db.onlinewebfonts.com/c/c90aed9ca433814157b45894e93ffab6?family=Timepiece);
+@import url(//db.onlinewebfonts.com/c/6c64d0b07322573d2fe791ca8b55850a?family=SynthemescW00-Regular);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  background: url(../images/background1.png) center black no-repeat;
+  background-size: 70%;
+  margin: auto;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  letter-spacing: 0.3rem;
+}
+
+header {
+  margin: 1vh 5vw 5vw;
+  display: flex;
+  justify-content: space-between;
+  color: #df554e;
+  font-family: Timepiece;
+  font-size: large;
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+.menu {
+  display: flex;
+  list-style-type: disc;
+}
+
+.menu a {
+  margin-top: 2vh;
+  margin-left: 2vw;
+  font-size: 3rem;
+}
+
+.play {
+  position: absolute;
+  top: 47.5vh;
+  left: 47.5vw;
+  font-family: SynthemescW00-Regular;
+  color: #f2e47b;
+  font-size: 4vh;
+  border: 1px transparent solid;
+  border-radius: 50%;
+}
+
+footer {
+  color: whitesmoke;
+  font-family: PlainPensleW00-BoldItalic;
+  text-align: center;
+  font-size: 5.5vh;
+  position: absolute;
+  bottom: 1.5vh;
+  left: 33vw;
+}
