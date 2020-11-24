@@ -22,13 +22,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  width: auto;
+  height: fit-content;
+}
+
 a {
   text-decoration: none;
   color: inherit;
 }
 
 header {
-  margin: 1vh 5vw 5vw;
+  padding: 1vh 5vw 5vw;
   display: flex;
   justify-content: space-between;
   color: #df554e;
@@ -68,11 +74,10 @@ footer {
 
 #main-page {
   background: url(../images/background1.png) center black no-repeat;
-  background-size: 70%;
+  background-size: 130vh;
   margin: auto;
   width: 100vw;
   height: 100vh;
-  overflow: hidden;
   letter-spacing: 0.25rem;
 }
 
@@ -97,7 +102,6 @@ footer {
   background-color: black;
   width: 100vw;
   height: 100vh;
-  overflow: hidden;
   letter-spacing: 0.25rem;
 }
 
@@ -124,9 +128,10 @@ footer {
   position: absolute;
   padding: 2vh;
   font-size: 1rem;
+  width: 36vw;
   height: 4vh;
   bottom: 15vh;
-  left: 6vw;
+  left: 12vw;
   border: 1px lightgray solid;
   border-radius: 0.5vh;
 }
@@ -134,5 +139,20 @@ footer {
 #send {
   position: absolute;
   bottom: 5vh;
-  left: 30vw;
+  left: 25vw;
+  padding: 2vh;
+  background: url(../images/background-play.png) center;
+  font-family: SynthemescW00-Regular;
+  color: #f2e47b;
+  font-size: 4vh;
+  border: none;
+  border-radius: 1vh;
+  cursor: pointer;
+  transform: scale(1);
+  transition: transform, 250ms;
+}
+
+#send:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 5px #eba6a2;
 }
