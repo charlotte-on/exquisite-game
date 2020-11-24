@@ -1,0 +1,22 @@
+{
+  "name": "exquisite-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlotte-on/exquisite-game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charlotte-on/exquisite-game/issues"
+  },
+  "homepage": "https://github.com/charlotte-on/exquisite-game#readme",
+  "dependencies": {
+    "@joeattardi/emoji-button": "^4.5.1"
+  }
+}
