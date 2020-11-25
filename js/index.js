@@ -55,6 +55,7 @@ function revealLastWord() {
 
 function changeButton() {
   sendBtn.value = "Reveal";
+  sendBtn.classList.toggle("reveal");
 }
 
 function removeInputs() {
@@ -65,7 +66,7 @@ function removeInputs() {
 }
 
 function revealText() {
-  textWritten.classList.toggle("hidden-text");
+  textWritten.classList.remove("hidden-text");
   textInput.value = "";
   textInput.disabled = true;
   sendBtn.disabled = true;
@@ -79,8 +80,6 @@ textInput.addEventListener("keyup", function (event) {
     sendBtn.click();
   }
 });
-
-// revealBtn.onclick = revealText;
 
 // textInput.onkeydown = () => {
 //   removeEmojis(textInput.value);

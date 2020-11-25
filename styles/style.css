@@ -72,6 +72,10 @@ footer {
   left: 34vw;
 }
 
+iframe {
+  border: none;
+}
+
 /*Homepage*/
 
 #main-page {
@@ -126,6 +130,7 @@ footer {
 #written-text {
   align-self: flex-start;
   font-size: 2vw;
+  text-align: center;
 }
 
 .hidden-text {
@@ -173,6 +178,12 @@ footer {
 
 .sent {
   color: black;
+}
+
+.reveal {
+  background-image: none;
+  background-color: #f2e47b;
+  color: #df554e;
 }
 
 .trigger {
