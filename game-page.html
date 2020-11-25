@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/style.css" />
-    <script type="module" src="./js/dom.js"></script>
+    <script type="module" src="./js/index.js"></script>
     <title>Exquisite game</title>
   </head>
   <body>
@@ -17,22 +17,29 @@
           <a href="#">Credits</a>
         </nav>
       </header>
-      <section id="game">
-        <div>
-          <!-- <div class="input"></div> -->
-          <p id="written-text">I have</p>
-          <input
-            type="text"
-            id="words"
-            required
-            minlength="40"
-            maxlength="80"
-            size="80"
-          />
-          <button class="trigger">Emoji</button>
+      <div id="game">
+        <div id="written-text"></div>
+        <div id="container">
+          <div class="inputs">
+            <input
+              type="text"
+              id="words"
+              required="Write your texte here"
+              minlength="40"
+              maxlength="80"
+              size="80"
+              style="
+                font-family: Homemade Apple;
+                font-size: 0.7vw;
+                letter-spacing: 0.1rem;
+                font-weight: 400;
+              "
+            />
+            <button class="trigger">☺︎</button>
+          </div>
           <input type="button" name="send" class="send" value="Publish" />
         </div>
-      </section>
+      </div>
       <footer>
         <p>Ceci n'est pas un jeu</p>
       </footer>

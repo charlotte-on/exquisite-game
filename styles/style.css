@@ -15,8 +15,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&display=swap");
 
-/*General style*/
+/* Font to hide the text */
+@import url(//db.onlinewebfonts.com/c/c0a22a77f0d318f4a8305cc4e0073bae?family=Pagan+Symbols);
 
+/*General style*/
 * {
   margin: 0;
   padding: 0;
@@ -34,7 +36,7 @@ a {
 }
 
 header {
-  padding: 1vh 5vw 5vw;
+  padding: 1vh 5vw 2vw;
   display: flex;
   justify-content: space-between;
   color: #df554e;
@@ -73,6 +75,7 @@ footer {
 /*Homepage*/
 
 #main-page {
+  position: relative;
   background: url(../images/background1.png) center black no-repeat;
   background-size: 130vh;
   margin: auto;
@@ -84,7 +87,7 @@ footer {
 .play {
   position: absolute;
   top: 47.45vh;
-  left: 47.55vw;
+  left: 47.65vw;
   font-family: SynthemescW00-Regular;
   color: #f2e47b;
   font-size: 2vw;
@@ -106,49 +109,56 @@ footer {
 }
 
 #game {
-  display: grid;
-  grid-template-columns: 20% auto 20%;
-  grid-template-rows: 720% 65% auto;
-  margin-top: -7vh;
-}
-/*I don't know how to be upper*/
-
-#game div {
-  position: relative;
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 77vh;
   background: whitesmoke;
   font-family: Homemade Apple;
   border-radius: 2vh;
   padding: 3vh;
+  margin: 0vh 20vw 0vh 20vw;
+}
+
+/* Classes written text */
+
+#written-text {
+  align-self: flex-start;
+  font-size: 2vw;
+}
+
+.hidden-text {
+  font-family: Pagan Symbols;
+}
+
+/* Input to submit new text */
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #words {
-  position: absolute;
-  padding: 2vh;
+  padding: 1vh;
   font-size: 1rem;
   width: 36vw;
-  height: 4vh;
-  bottom: 15vh;
-  left: 12vw;
   border: 1px lightgray solid;
-  border-radius: 0.5vh;
+  border-radius: 0.7vh;
 }
 
-.send,
-.sent {
-  position: absolute;
-  bottom: 5vh;
-  left: 25vw;
-  padding: 2vh;
-  background: url(../images/background-play.png) center;
-  font-family: SynthemescW00-Regular;
+.inputs {
+  display: flex;
 }
 
 .send {
+  width: 10vw;
+  padding: 2vh;
+  margin-top: 3vh;
+  background: url(../images/background-play.png) center;
+  font-family: SynthemescW00-Regular;
   color: #f2e47b;
-  font-size: 4vh;
+  font-size: 2vw;
   border: none;
   border-radius: 1vh;
   cursor: pointer;
@@ -163,4 +173,14 @@ footer {
 
 .sent {
   color: black;
+}
+
+.trigger {
+  margin-left: -2vw;
+  background-color: transparent;
+  border: transparent;
+  text-align: center;
+  font-size: 1.8vw;
+  cursor: pointer;
+  color: rgb(199, 199, 199);
 }
