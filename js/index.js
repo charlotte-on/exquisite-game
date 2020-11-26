@@ -4,6 +4,7 @@ const sendBtn = document.querySelector(".send");
 const textInput = document.querySelector("#words");
 const textWritten = document.querySelector("#written-text");
 const emojiBtn = document.querySelector(".trigger");
+const warningMsg = document.querySelector(".message");
 
 initEmojis();
 
@@ -11,6 +12,8 @@ let functionCalls = 0;
 
 function sendText() {
   if (textInput.value.length < 30 || textInput.value.length > 50) {
+    warningMsg.classList.toggle("warning");
+    warning();
     return;
   }
   if (textWritten.textContent === "") {
@@ -80,6 +83,12 @@ textInput.addEventListener("keyup", function (event) {
     sendBtn.click();
   }
 });
+
+function warning() {
+  setTimeout(() => {
+    warningMsg.classList.toggle("warning");
+  }, 2000);
+}
 
 // textInput.onkeydown = () => {
 //   removeEmojis(textInput.value);
