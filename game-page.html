@@ -3,12 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="./images/icon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="./images/icon-16x16.png"
+      sizes="16x16"
+    />
     <link rel="stylesheet" href="./styles/style.css" />
     <script type="module" src="./js/index.js"></script>
-    <!-- <script
-      type="module"
-      src="./node_modules/@joeattardi/emoji-button/dist/index.js"
-    ></script> -->
     <title>Exquisite game</title>
   </head>
   <body>
@@ -17,8 +25,8 @@
         <h1 id="name"><a href="./index.html">EXQUISITE GAME</a></h1>
         <nav class="menu">
           <a href="./game-page.html">New game</a>
-          <a href="#">Rules</a>
-          <a href="#">Credits</a>
+          <a href="./rules.html">Rules</a>
+          <a href="./credits.html">Credits</a>
         </nav>
       </header>
       <div id="game">
@@ -42,12 +50,12 @@
                 font-weight: 400;
               "
             />
-            <button class="trigger">☺︎</button>
+            <button class="trigger">☺</button>
           </div>
           <input type="button" name="send" class="send" value="PUBLISH" />
         </div>
       </div>
-      <div class="music">
+      <!-- <div class="music">
         <embed
           name="music-gamepage"
           src="./music/Parade1.mp3"
@@ -55,7 +63,7 @@
           hidden="true"
           autostart="true"
         />
-      </div>
+      </div> -->
       <footer>
         <p>Ceci n'est pas un jeu</p>
       </footer>
