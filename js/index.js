@@ -11,7 +11,14 @@ initEmojis();
 let functionCalls = 0;
 
 function sendText() {
-  if (textInput.value.length < 30 || textInput.value.length > 50) {
+  if (textInput.value.length < 30) {
+    warningMsg.textContent = "Your text should be at least 30 characters long";
+    warningMsg.classList.toggle("warning");
+    warning();
+    return;
+  }
+  if (textInput.value.length > 50) {
+    warningMsg.textContent = "Your text should be less than 50 characters long";
     warningMsg.classList.toggle("warning");
     warning();
     return;

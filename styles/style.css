@@ -1,5 +1,6 @@
 /*Fonts for the players*/
 @import url("https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 
 /*Fonts for the pages*/
 @font-face {
@@ -47,6 +48,7 @@
 body {
   width: auto;
   height: fit-content;
+  overflow: hidden;
 }
 
 a {
@@ -89,10 +91,6 @@ footer {
   position: absolute;
   bottom: 1.5vh;
   left: 34vw;
-}
-
-iframe {
-  border: none;
 }
 
 /*Homepage*/
@@ -225,4 +223,57 @@ iframe {
   font-size: 1.8vw;
   cursor: pointer;
   color: rgb(199, 199, 199);
+}
+
+/*Credit page*/
+
+#artists {
+  padding-top: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#magritte img {
+  width: 35vw;
+}
+
+#satie img {
+  width: 25vw;
+  padding-left: 5vw;
+  margin-bottom: 2vh;
+}
+
+#artists p,
+#author {
+  color: white;
+  text-align: center;
+  font-family: Oswald;
+}
+
+#author {
+  padding: 7vh 5vw;
+}
+
+/*Rules page*/
+
+#about {
+  padding-top: 2.5vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Oswald;
+}
+
+#about h2 {
+  color: #df554e;
+  text-decoration: white;
+}
+
+#about p {
+  color: white;
+}
+
+.paragraphe {
+  width: 40vw;
 }
