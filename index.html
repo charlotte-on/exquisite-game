@@ -3,6 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="./images/icon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="./images/icon-16x16.png"
+      sizes="16x16"
+    />
     <link rel="stylesheet" href="./styles/style.css" />
     <script type="module" src="./js/index.js"></script>
     <title>Exquisite game</title>
@@ -10,7 +22,7 @@
   <body>
     <div id="main-page">
       <header>
-        <h1 id="name">EXQUISITE GAME</h1>
+        <h1 id="name"><a href="./index.html">EXQUISITE GAME</a></h1>
         <nav class="menu">
           <a href="./game-page.html">New game</a>
           <a href="#">Rules</a>
@@ -19,7 +31,18 @@
       </header>
 
       <section>
-        <p class="play"><a href="./game-page.html">play</a></p>
+        <div class="play">
+          <p><a href="./game-page.html">play</a></p>
+        </div>
+        <div class="music">
+          <embed
+            name="music-homepage"
+            src="./music/La-belle-excentrique-1.mp3"
+            loop="true"
+            hidden="true"
+            autostart="true"
+          />
+        </div>
       </section>
 
       <footer>

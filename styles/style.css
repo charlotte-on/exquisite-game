@@ -12,9 +12,9 @@
 
 /*Fonts for the pages*/
 @font-face {
-  font-family: "Plain Pensle Italic";
-  src: url("../Polices/PlainPensle-Italic/PlainPensle-Italic.otf");
-  font-weight: normal;
+  font-family: "Plain Pensle Bold Italic";
+  src: url("../Polices/PlainPensle-Italic/PlainPensle-W00-BoldItalic.otf");
+  font-weight: bold;
   font-style: normal;
 }
 @font-face {
@@ -39,12 +39,12 @@
   font-style: normal;
 }
 
-@font-face {
+/* @font-face {
   font-family: "General Symbols";
   src: url("../Polices/General-Symbols/GeneralSymbolsP04.otf");
   font-weight: normal;
   font-style: normal;
-}
+} */
 
 /*General style*/
 * {
@@ -92,7 +92,7 @@ header {
 
 footer {
   color: whitesmoke;
-  font-family: "Plain Pensle Italic";
+  font-family: "Plain Pensle Bold Italic";
   text-align: center;
   font-size: 2.67vw;
   position: absolute;
@@ -108,7 +108,7 @@ iframe {
 
 #main-page {
   position: relative;
-  background: url(../images/background1.png) center black no-repeat;
+  background: url(../images/background.png) center black no-repeat;
   background-size: 130vh;
   margin: auto;
   width: 100vw;
@@ -162,7 +162,7 @@ iframe {
 }
 
 .hidden-text {
-  font-family: "General Symbols";
+  font-family: "Pagan Symbols";
 }
 
 /* Input to submit new text */
@@ -194,14 +194,15 @@ iframe {
 }
 
 .send {
-  width: 10vw;
+  width: 10.5vw;
   padding: 2vh;
   margin-top: 3vh;
-  background: url(../images/background-play.png) center;
-  font-family: "Synthemesc";
+  background: url(../images/loop2.gif) center;
+  font-family: "Timepiece";
+  text-align: center;
   color: #f2e47b;
   font-size: 2vw;
-  border: none;
+  border: 2.5px #f2e47b outset;
   border-radius: 1vh;
   cursor: pointer;
   transform: scale(1);
@@ -210,7 +211,7 @@ iframe {
 
 .send:hover {
   transform: scale(1.1);
-  box-shadow: 5px 5px 5px #eba6a2;
+  box-shadow: 5px 5px 5px #a5a4a4;
 }
 
 .sent {
@@ -218,9 +219,9 @@ iframe {
 }
 
 .reveal {
-  background-image: none;
-  background-color: #f2e47b;
-  color: #df554e;
+  background: url(../images/reveal2.gif) center;
+  -webkit-text-stroke: 1px black;
+  background-color: none;
 }
 
 .trigger {

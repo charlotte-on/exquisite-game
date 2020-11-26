@@ -60,7 +60,7 @@ function revealLastWord() {
 }
 
 function changeButton() {
-  sendBtn.value = "Reveal";
+  sendBtn.value = "REVEAL";
   sendBtn.classList.toggle("reveal");
 }
 
