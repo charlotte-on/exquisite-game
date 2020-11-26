@@ -33,7 +33,7 @@
 
 /* Font to hide the text */
 @font-face {
-  font-family: "Pagan";
+  font-family: "Pagan Symbols";
   src: url("../Polices/Pagan-Symbols/Pagan-Symbols.otf");
   font-weight: normal;
   font-style: normal;
@@ -155,7 +155,7 @@ iframe {
 }
 
 .hidden-text {
-  font-family: "Pagan";
+  font-family: "Pagan Symbols";
 }
 
 /* Input to submit new text */
