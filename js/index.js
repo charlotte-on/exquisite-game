@@ -67,9 +67,6 @@ function removeInputs() {
 
 function revealText() {
   textWritten.classList.remove("hidden-text");
-  textInput.value = "";
-  textInput.disabled = true;
-  sendBtn.disabled = true;
 }
 
 sendBtn.onclick = sendText;
