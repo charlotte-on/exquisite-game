@@ -13,57 +13,15 @@
 /*Fonts for the pages*/
 @font-face {
   font-family: "PlainPensleW00-BoldItalic";
-  src: url("http://db.onlinewebfonts.com/t/757a7b747769394e1ea6809387390c3d.eot"); /* IE9*/
-  src: url("http://db.onlinewebfonts.com/t/757a7b747769394e1ea6809387390c3d.eot?#iefix")
-      format("embedded-opentype"),
-    /* IE6-IE8 */
-      url("http://db.onlinewebfonts.com/t/757a7b747769394e1ea6809387390c3d.woff2")
-      format("woff2"),
-    /* chrome firefox */
-      url("http://db.onlinewebfonts.com/t/757a7b747769394e1ea6809387390c3d.woff")
-      format("woff"),
-    /* chrome firefox */
-      url("http://db.onlinewebfonts.com/t/757a7b747769394e1ea6809387390c3d.ttf")
-      format("truetype"),
-    /* chrome firefox opera Safari, Android, iOS 4.2+*/
-      url("http://db.onlinewebfonts.com/t/757a7b747769394e1ea6809387390c3d.svg#PlainPensleW00-BoldItalic")
-      format("svg"); /* iOS 4.1- */
+  src: url("../Polices/PlainPensle\ Bold\ Italic.ttf") format("truetype");
 }
 @font-face {
   font-family: "Timepiece";
-  src: url("http://db.onlinewebfonts.com/t/c90aed9ca433814157b45894e93ffab6.eot"); /* IE9*/
-  src: url("http://db.onlinewebfonts.com/t/c90aed9ca433814157b45894e93ffab6.eot?#iefix")
-      format("embedded-opentype"),
-    /* IE6-IE8 */
-      url("http://db.onlinewebfonts.com/t/c90aed9ca433814157b45894e93ffab6.woff2")
-      format("woff2"),
-    /* chrome firefox */
-      url("http://db.onlinewebfonts.com/t/c90aed9ca433814157b45894e93ffab6.woff")
-      format("woff"),
-    /* chrome firefox */
-      url("http://db.onlinewebfonts.com/t/c90aed9ca433814157b45894e93ffab6.ttf")
-      format("truetype"),
-    /* chrome firefox opera Safari, Android, iOS 4.2+*/
-      url("http://db.onlinewebfonts.com/t/c90aed9ca433814157b45894e93ffab6.svg#Timepiece")
-      format("svg"); /* iOS 4.1- */
+  src: url("../Polices/Timepiece.TTF") format("truetype");
 }
 @font-face {
   font-family: "SynthemescW00-Regular";
-  src: url("http://db.onlinewebfonts.com/t/6c64d0b07322573d2fe791ca8b55850a.eot"); /* IE9*/
-  src: url("http://db.onlinewebfonts.com/t/6c64d0b07322573d2fe791ca8b55850a.eot?#iefix")
-      format("embedded-opentype"),
-    /* IE6-IE8 */
-      url("http://db.onlinewebfonts.com/t/6c64d0b07322573d2fe791ca8b55850a.woff2")
-      format("woff2"),
-    /* chrome firefox */
-      url("http://db.onlinewebfonts.com/t/6c64d0b07322573d2fe791ca8b55850a.woff")
-      format("woff"),
-    /* chrome firefox */
-      url("http://db.onlinewebfonts.com/t/6c64d0b07322573d2fe791ca8b55850a.ttf")
-      format("truetype"),
-    /* chrome firefox opera Safari, Android, iOS 4.2+*/
-      url("http://db.onlinewebfonts.com/t/6c64d0b07322573d2fe791ca8b55850a.svg#SynthemescW00-Regular")
-      format("svg"); /* iOS 4.1- */
+  src: url("../Polices/synthemesc.otf");
 }
 
 /* Font to hide the text */
