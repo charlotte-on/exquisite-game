@@ -10,6 +10,9 @@ initEmojis();
 let functionCalls = 0;
 
 function sendText() {
+  if (textInput.value.length < 30 || textInput.value.length > 50) {
+    return;
+  }
   if (textWritten.textContent === "") {
     textWritten.textContent += textInput.value;
     hideText();

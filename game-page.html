@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/style.css" />
     <script type="module" src="./js/index.js"></script>
-    <script
+    <!-- <script
       type="module"
       src="./node_modules/@joeattardi/emoji-button/dist/index.js"
-    ></script>
+    ></script> -->
     <title>Exquisite game</title>
   </head>
   <body>
@@ -25,11 +25,13 @@
         <div id="written-text"></div>
         <div id="container">
           <div class="inputs">
+            <!-- pattern=".{40,60}" -->
             <input
-              pattern=".{40,60}"
               type="text"
               id="words"
               required
+              minlength="40"
+              maxlength="60"
               size="80"
               style="
                 font-family: Homemade Apple;
