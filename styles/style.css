@@ -1,7 +1,7 @@
 /*Fonts for the pages*/
-@import url(//db.onlinewebfonts.com/c/757a7b747769394e1ea6809387390c3d?family=PlainPensleW00-BoldItalic);
-@import url(//db.onlinewebfonts.com/c/c90aed9ca433814157b45894e93ffab6?family=Timepiece);
-@import url(//db.onlinewebfonts.com/c/6c64d0b07322573d2fe791ca8b55850a?family=SynthemescW00-Regular);
+@import url("https://db.onlinewebfonts.com/c/757a7b747769394e1ea6809387390c3d?family=PlainPensleW00-BoldItalic");
+@import url("//db.onlinewebfonts.com/c/c90aed9ca433814157b45894e93ffab6?family=Timepiece");
+@import url("//db.onlinewebfonts.com/c/6c64d0b07322573d2fe791ca8b55850a?family=SynthemescW00-Regular");
 
 /*Fonts for the players*/
 @import url("https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap");
@@ -16,7 +16,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&display=swap");
 
 /* Font to hide the text */
-@import url(//db.onlinewebfonts.com/c/c0a22a77f0d318f4a8305cc4e0073bae?family=Pagan+Symbols);
+@import url("//db.onlinewebfonts.com/c/c0a22a77f0d318f4a8305cc4e0073bae?family=Pagan+Symbols");
 
 /*General style*/
 * {
