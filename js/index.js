@@ -87,7 +87,7 @@ textInput.addEventListener("keyup", function (event) {
 function warning() {
   setTimeout(() => {
     warningMsg.classList.toggle("warning");
-  }, 2000);
+  }, 3000);
 }
 
 // textInput.onkeydown = () => {
