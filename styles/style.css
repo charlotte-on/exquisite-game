@@ -39,6 +39,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "General Symbols";
+  src: url("../Polices/General-Symbols/GeneralSymbolsP04.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /*General style*/
 * {
   margin: 0;
@@ -155,7 +162,7 @@ iframe {
 }
 
 .hidden-text {
-  font-family: "Pagan Symbols";
+  font-family: "General Symbols";
 }
 
 /* Input to submit new text */
