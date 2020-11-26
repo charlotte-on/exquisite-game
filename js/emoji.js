@@ -1,4 +1,4 @@
-import { EmojiButton } from "./../node_modules/@joeattardi/emoji-button/dist/index.js";
+import { EmojiButton } from "./emoji.lib.js";
 
 const textInput = document.querySelector("#words");
 
