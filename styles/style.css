@@ -1,6 +1,6 @@
 /*Fonts for the players*/
 @import url("https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Anton&family=Castoro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@400;500;600&display=swap");
 
 /*Fonts for the pages*/
 @font-face {
@@ -229,31 +229,40 @@ footer {
 /*Credit page*/
 
 #artists {
-  padding-top: 10vh;
+  padding-top: 3vh;
+  padding-right: 3vw;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
 #magritte img {
-  width: 35vw;
+  width: 25vw;
 }
 
 #satie img {
-  padding-left: 3vw;
-  width: 20vw;
+  width: 15vw;
   margin-bottom: 2vh;
+  padding-left: 3vw;
 }
 
 #artists p,
 #author {
   color: white;
   text-align: center;
-  font-family: Anton;
+  font-family: Teko;
+  letter-spacing: normal;
+  font-weight: 500;
+  font-size: 1.4vw;
 }
 
 #author {
-  padding: 7vh 5vw;
+  margin-top: -5vh;
+  align-self: center;
+}
+
+#author img {
+  width: 15vw;
 }
 
 /*Rules page*/
@@ -263,7 +272,9 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-family: Anton;
+  font-family: Teko;
+  letter-spacing: normal;
+  font-size: 1.2vw;
 }
 
 #about h2 {

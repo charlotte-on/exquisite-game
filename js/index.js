@@ -75,7 +75,6 @@ function removeInputs() {
   sendBtn.remove();
   textInput.remove();
   emojiBtn.remove();
-  // sendBtn.onclick = location.reload();
 }
 
 function revealText() {
