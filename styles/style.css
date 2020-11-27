@@ -1,6 +1,6 @@
 /*Fonts for the players*/
 @import url("https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Castoro&display=swap");
 
 /*Fonts for the pages*/
 @font-face {
@@ -47,7 +47,7 @@
 
 body {
   width: auto;
-  height: fit-content;
+  height: 100vh;
   overflow: hidden;
 }
 
@@ -88,9 +88,20 @@ footer {
   font-family: "Plain Pensle Bold Italic";
   text-align: center;
   font-size: 2.67vw;
-  position: absolute;
-  bottom: 1.5vh;
-  left: 34vw;
+  margin-bottom: 3vh;
+}
+
+#main-page,
+#game-page,
+#rules-page,
+#credits-page {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  letter-spacing: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 /*Homepage*/
@@ -100,9 +111,6 @@ footer {
   background: url(../images/background.png) center black no-repeat;
   background-size: 130vh;
   margin: auto;
-  width: 100vw;
-  height: 100vh;
-  letter-spacing: 0.25rem;
 }
 
 .play {
@@ -111,6 +119,7 @@ footer {
   left: 47.65vw;
   font-family: "Synthemesc";
   color: #f2e47b;
+  text-align: center;
   font-size: 2vw;
   transform: scale(1);
   transition: transform, 250ms;
@@ -121,15 +130,6 @@ footer {
 }
 
 /*Game page*/
-
-#game-page,
-#rules-page,
-#credits-page {
-  background-color: black;
-  width: 100vw;
-  height: 100vh;
-  letter-spacing: 0.25rem;
-}
 
 #game {
   display: flex;
@@ -239,8 +239,8 @@ footer {
 }
 
 #satie img {
-  width: 25vw;
-  padding-left: 5vw;
+  padding-left: 3vw;
+  width: 20vw;
   margin-bottom: 2vh;
 }
 
@@ -248,7 +248,7 @@ footer {
 #author {
   color: white;
   text-align: center;
-  font-family: Oswald;
+  font-family: Anton;
 }
 
 #author {
@@ -262,7 +262,7 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-family: Oswald;
+  font-family: Anton;
 }
 
 #about h2 {
