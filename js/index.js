@@ -97,9 +97,6 @@ function warning() {
   }, 3000);
 }
 
-var musicHome = document.getElementsById("musicHome");
-musicHome.play();
-
 // textInput.onkeydown = () => {
 //   removeEmojis(textInput.value);
 // };
